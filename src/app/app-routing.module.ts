@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AddpostformComponent } from './addpostform/addpostform.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HelpformComponent } from './helpform/helpform.component';
-import { LoginGuard } from './loginform/login.guard';
-import { LoginformComponent } from './loginform/loginform.component';
-import { PostsComponent } from './posts/posts.component';
-import { RegisterformComponent } from './registerform/registerform.component';
-import { SinglepostComponent } from './singlepost/singlepost.component'; // Düzeltme: Yol düzeltildi.
-import { UploadimageComponent } from './uploadimage/uploadimage.component';
+import { AddpostformComponent } from '../addpostform/addpostform.component.ts';
+import { DashboardComponent } from '../dashboard/dashboard.component.ts';
+import { HelpformComponent } from '../helpform/helpform.component.ts';
+import { LoginGuard } from '../loginform/login.guard.ts';
+import { LoginformComponent } from '../loginform/loginform.component.ts';
+import { PostsComponent } from '../posts/posts.component';
+import { RegisterformComponent } from '../registerform/registerform.component';
+import { SinglepostComponent } from '../singlepost/singlepost.component'; // Düzeltme: Yol düzeltildi.
+import { UploadimageComponent } from '../uploadimage/uploadimage.component';
 
 const routes: Routes = [
   { path: 'posts', component: PostsComponent },
