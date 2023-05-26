@@ -7,7 +7,7 @@ import { LoginGuard } from './loginform/login.guard';
 import { LoginformComponent } from './loginform/loginform.component';
 import { PostsComponent } from './posts/posts.component';
 import { RegisterformComponent } from './registerform/registerform.component';
-import { SinglepostComponent } from './singlepost/singlepost.component';
+import { SinglepostComponent } from '../singlepost/singlepost.component';
 import { UploadimageComponent } from './uploadimage/uploadimage.component';
 
 const routes: Routes = [
